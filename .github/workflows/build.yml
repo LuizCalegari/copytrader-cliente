@@ -21,6 +21,8 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y git zip unzip openjdk-17-jdk autoconf libtool pkg-config zlib1g-dev libncurses-dev cmake libffi-dev libssl-dev
         pip install buildozer cython
+        # Aceitar licenças do SDK automaticamente
+        yes | sdkmanager --licenses || true
 
     - name: Build APK
       run: |
