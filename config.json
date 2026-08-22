@@ -1,0 +1,13 @@
+{
+    "clients": [
+        {
+            "client_id": "client1",
+            "token": "token001",
+            "email": "giovanisocalegari@hotmail.com",
+            "password": "Kh6Yhg@dJLc",
+            "account_type": "practice",  
+            "asset_type": "binaria", 
+            "entry_amount": 30  
+        }
+    ]
+}
